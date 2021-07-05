@@ -1,5 +1,5 @@
 {
-  "name": "course",
+  "name": "web-server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "postman-request": "^2.88.1-postman.30",
+    "express": "4.17.1",
+    "hbs": "4.1.2",
     "request": "^2.88.0"
   }
 }
