@@ -12,11 +12,13 @@ request({ url,json:true}, (error, {body})=> {
       else if (body.error) {
         callback('not found info',undefined)
       } 
-      else{
-      callback(undefined,body.current.weather_descriptions[0]  +'. It is currently ' + body.current.temperature + ' degress celsius out. It feels like ' + body.current.feelslike + " degress celsius out."+ body.current.precip+'% chance of rain.');
+      else{ 
+       
+      callback(undefined,body.current.weather_descriptions[0]  +'. It is currently ' + body.current.temperature + ' degress celsius out. It feels like ' + body.current.feelslike + " degress celsius out "+ body.current.precip+"% chance of rain. The humidity is " +body.current.humidity + "%" );
    }
 })
 }
+
 
 
 module.exports = forecast

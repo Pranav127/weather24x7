@@ -63,7 +63,7 @@ input{
 
 button{
     cursor: pointer;
-    border: #888888;
-    color: rgb(228, 152, 152);
+    border: #ffffff;
+    color: rgb(248, 6, 6);
     padding: 8px;
 }
